@@ -57,7 +57,7 @@ $loader->addClass('App/Admin/Auth','/path/to/app-admin/Auth.php');
 
 For multiple classes :
 
-``php
+```php
 $loader->setClassCollection([
     'App\Admin\Auth' => '/path/to/app-admin/Auth.php'
 ]);
