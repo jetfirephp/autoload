@@ -73,4 +73,9 @@ If you set a default base directory for your autoloader like this :
 $loader = new \JetFire\Autoloader\Autoload('/path/to/base/directory');
 ```
 
-And you want to instantiate a class `Auth.php` with the namespace `App\Admin` when you have not define this namespace in `addClass()` method, JetFire\Autoloader will check if the file `Auth.php` exists in `/path/to/base/directory/App/Admin/` folder. 
+And you want to instantiate a class `Auth.php` with the namespace `App\Admin` when you have not define this namespace in `addClass()` method, JetFire\Autoloader will check if the file `Auth.php` exists in `/path/to/base/directory/App/Admin/` folder.
+
+
+### License
+
+The JetFire Autoloader is released under the MIT public license : http://www.opensource.org/licenses/MIT. 
